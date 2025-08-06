@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 80;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Jenkins-powered CI/CD!');
+  res.send('🎉 Jenkins pipeline is working! 🎉');
 });
 
 app.listen(port, () => {
